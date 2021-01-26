@@ -3,8 +3,6 @@
 
 // ----- CALL PACKAGES - START -----
 const chalk = require('chalk');
-// const ora = require('ora');
-// const figlet = require('figlet');
 const boxen = require('boxen');
 // ----- CALL PACKAGES - END -----
 
