@@ -11,7 +11,7 @@ It is a very simple tool, you just have to write this command line to get my npx
 ```npx auban```
 
 
-## Source
+## Sources
 
 Documentation on the package Chalk :
 <https://www.npmjs.com/package/chalk>
