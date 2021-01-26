@@ -4,15 +4,16 @@
 // ----- CALL PACKAGES - START -----
 const chalk = require('chalk');
 const boxen = require('boxen');
+const gradient = require('gradient-string');
 // ----- CALL PACKAGES - END -----
 
 
 // ----- START -----
 
 const data = {
-    name : chalk.white("             Auban Labie"),
-    username : chalk.white("Aubanyx"),
-    work : chalk.white("Web Developer Junior"),
+    name : gradient.cristal("                Auban Labie"),
+    username : gradient.cristal("Aubanyx"),
+    work : gradient.pastel("Junior Web Developer"),
     npm : chalk.gray("https://www.npmjs.com/") + chalk.red("~aubanyx"),
     github : chalk.gray("https://github.com/") + chalk.green("Aubanyx"),
     linkedin : chalk.gray("https://www.linkedin.com/in/") + chalk.blue("aubanlabie"),
@@ -27,8 +28,9 @@ const data = {
 const NEWLINE = "\n";
 const EMPTYLINE = "";
 
+
 console.log(
-    chalk.green(
+    chalk.magenta(
         boxen(
             [
                 `${data.name} / ${data.username}`,
