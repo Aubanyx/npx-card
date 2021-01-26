@@ -18,3 +18,9 @@ Documentation on the package Chalk :
 
 Documentation on the package boxen :
 <https://www.npmjs.com/package/boxen>
+
+Documentation on the package figlet :
+<https://www.npmjs.com/package/figlet>
+
+Documentation on the package gradient-string :
+<https://www.npmjs.com/package/gradient-string>
